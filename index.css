@@ -24,3 +24,21 @@ body{
 .logo{
 	font-family: 'Inter', sans-serif;
 }
+
+/* Small screens */
+
+@media (max-width: 320px) {
+	
+}
+
+/* Medium screens */
+
+@media (max-width:768px){
+
+}
+
+/* Large screens */
+
+@media (max-width:1200px){
+	
+}
