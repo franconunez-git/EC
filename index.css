@@ -34,6 +34,8 @@ body{
 }
 
 .carousel{
+	position: relative;
+	z-index: 1;
 	display: flex;
 	margin: 30px 0 0 0;
 	width: 100%;
@@ -41,6 +43,24 @@ body{
 	background-image: url("../img/oculus.png");
 	background-size: cover;
 	background-position: center;
+}
+
+.overlay{
+	position: relative;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100%;
+}
+
+h1{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font);
+	color: var(--bg-white);
+	font-size: 100;
 }
 
 /* Navbar ESTO QUEDA PARA LO ULTIMO*/ 
