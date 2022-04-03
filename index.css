@@ -9,6 +9,12 @@
 	--bg-black: #1d1d1d;
 	--bg-white: white;
 	--font: 'Inter', sans-serif;
+	--f-thin: 100;
+	--f-light: 300;
+	--f-regular: 400;
+	--f-medium: 500;
+	--f-semibold: 600;
+	--f-bold: 700;
 }
 
 .all{
@@ -46,7 +52,7 @@ body{
 	font-weight: 400;
 }
 
- /* Regular*/
+ /* Medium*/
 @font-face {
     font-family: Inter;
     src: url("../static/Inter-Medium.ttf");
@@ -104,7 +110,7 @@ h1{
 	font-family: var(--font);
 	color: var(--bg-white);
 	font-size: 64pt;
-	font-weight: 700;
+	font-weight: var(--f-bold);
 	
 }
 
@@ -114,7 +120,7 @@ h1{
 	font-family: var(--font);
 	text-align: center;
 	font-size: 21pt;
-	font-weight: 500;
+	font-weight: var(--f-medium);
 }
 
 .subtext{
@@ -124,7 +130,7 @@ h1{
 	text-align: center;
 	align-items: center;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: var(--f-semibold);
 }
 
 .see-our-bt{
@@ -144,7 +150,7 @@ h1{
 	text-align: center;
 	width: 100%;
 	font-size: 15pt;
-	font-weight: 500;
+	font-weight: var(--f-medium);
 }
 
 /* Pagina 2 */
@@ -156,6 +162,12 @@ h1{
 .blacktxt{
 	color: black;
 	margin: 30px 0 0 0;
+}
+
+.products{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .product-l{
@@ -183,11 +195,13 @@ h1{
 .product-title{
 	font-family: var(--font);
 	font-size: 15pt;
-	font-weight: 100;
+	font-weight: var(--f-thin);
 }
 
 .product-desc{
 	font-family: var(--font);
+	font-size: 11;
+	font-weight: var(--f-light);
 }
 
 /* Navbar ESTO QUEDA PARA LO ULTIMO*/ 
