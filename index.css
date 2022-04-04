@@ -221,6 +221,11 @@ h1{
 	font-weight: var(--f-light);
 }
 
+.product-txt-l:hover, 
+.product-txt-r:hover{
+	background-color: rgba(170, 170, 170, 0.400);
+}
+
 /* Navbar ESTO QUEDA PARA LO ULTIMO*/ 
 
 /* header{
