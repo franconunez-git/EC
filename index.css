@@ -132,7 +132,7 @@ h1{
 	font-weight: var(--f-medium);
 }
 
-.subtext{ 
+.subtext{
 	margin: 40px 10px 0 10px;
 	color: var(--bg-white);
 	font-family: var(--font);
