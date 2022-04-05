@@ -8,6 +8,7 @@
 :root{
 	--bg-black: #1d1d1d;
 	--bg-white: white;
+	--bg-grey: #cccccc;
 	--font: 'Inter', sans-serif;
 	--f-thin: 100;
 	--f-light: 300;
@@ -250,7 +251,28 @@ hr{
 	margin: 30px 0 0 0;
 }
 
+.find-us{
+	display: flex;
+	flex-direction: column;
+	color: var(--bg-grey);
+	width: 100%;
+	align-items: center;
+}
 
+.socials{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin: 20px 0 0 0;
+	justify-content: space-around;
+}
+
+.socials-img{
+	width: 20px;
+	height: auto;
+}
+
+.links
 
 /* Navbar ESTO QUEDA PARA LO ULTIMO*/ 
 
