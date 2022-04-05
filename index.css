@@ -257,6 +257,7 @@ hr{
 	color: var(--bg-grey);
 	width: 100%;
 	align-items: center;
+	margin: 15px 0 0 0;
 }
 
 .socials{
@@ -272,7 +273,19 @@ hr{
 	height: auto;
 }
 
-.links
+.links {
+	flex-direction: row;
+	width: 100%;
+	justify-items: center;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.links-txt{
+	text-decoration: none;
+	color: var(--bg-grey);
+	margin: 0 7px 0 7px;
+}
 
 /* Navbar ESTO QUEDA PARA LO ULTIMO*/ 
 
