@@ -120,7 +120,6 @@ h1{
 	color: var(--bg-white);
 	font-size: 64pt;
 	font-weight: var(--f-bold);
-	
 }
 
 .text{
@@ -162,7 +161,7 @@ h1{
 	font-weight: var(--f-medium);
 }
 
-/* Pagina 2 */
+/* Pagina 2 y 3 */
 
 .whitebg{
 	background-color: var(--bg-white);
@@ -224,6 +223,14 @@ h1{
 .product-txt-l:hover, 
 .product-txt-r:hover{
 	background-color: rgba(170, 170, 170, 0.400);
+}
+
+/* Pagina 4 */
+
+.about{
+	color: var(--bg-white);
+	font-family: var(--font);
+	font-weight: var(--f-light);
 }
 
 /* Navbar ESTO QUEDA PARA LO ULTIMO*/ 
