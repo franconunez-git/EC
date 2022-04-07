@@ -333,7 +333,7 @@ hr{
 
 @media (max-width:600px) {
 	.change:checked ~ ul{
-		display: block !important;
+		display: block;
 		flex-direction: column;
 	}
 }
