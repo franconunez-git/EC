@@ -7,7 +7,7 @@
 
 :root{
 	--bg-black: #1d1d1d;
-	--bg-white: white;
+	--bg-white: #ffffff;
 	--bg-grey: #cccccc;
 	--font: 'Inter', sans-serif;
 	--f-thin: 100;
@@ -79,45 +79,42 @@ header{
 	position: absolute;
 	flex-direction: column;
 	width: 100%;
-	height: 7%;
+}
+
+.change{
+	display: none;
 }
 
 .logo{
 	display: flex;
 	align-items: center;
-	font-family: 'Inter', sans-serif;
+	color: var(--bg-white);
+}
+
+.fa-bars::before {
+    content: "\f0c9";
+	display: flex;
 }
 
 nav{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	height: 7%;
 	background-color: red;
 	align-items: center;
 }
 
 ul{
-	display: flex;
-	flex-direction: column;
+	display: none;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	height: 100%;
 	text-align: center;
 	background-color: black;
   }
-
-li{
-	color: white;
-	text-decoration: none;
-	width: 100%;
-	align-items: center;
-}
-
-a{
-	width: 100%;
-	align-items: center;
-}
 
 /* Pagina 1 */ 
 
@@ -334,8 +331,26 @@ hr{
 
 /* Small screens */
 
-@media (min-width:0px) and (max-width: 320px) {
-	
+@media (max-width:600px) {
+	.change:checked ~ ul{
+		display: block !important;
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 600px) {
+	ul {
+		flex-direction: row;
+	}
+
+	.logo{
+		display:none;
+	}
+
+	.fa-bars::before {
+		content: "\f0c9";
+		display: none;
+	}
 }
 
 /* Medium screens */
