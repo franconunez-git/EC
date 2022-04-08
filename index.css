@@ -352,15 +352,3 @@ hr{
 		display: none;
 	}
 }
-
-/* Medium screens */
-
-@media (min-width:321px) and (max-width:768px){
-
-}
-
-/* Large screens */
-
-@media (min-width:769px) and (max-width:9999px){
-	
-}
