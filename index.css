@@ -6,7 +6,7 @@
 }
 
 :root{
-	--bg-black: #1d1d1d;
+	--bg-black: green;/* #1d1d1d; */
 	--bg-white: #ffffff;
 	--bg-grey: #cccccc;
 	--font: 'Inter', sans-serif;
@@ -28,7 +28,8 @@
 }
 
 body{
-	background: var(--bg-black)
+	background: var(--bg-black);
+	height: 100%;
 }
 
 /* FONTS */
@@ -79,6 +80,8 @@ header{
 	position: absolute;
 	flex-direction: column;
 	width: 100%;
+	height: auto;
+	overflow: hidden;
 }
 
 .change{
@@ -88,21 +91,28 @@ header{
 .logo{
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	color: var(--bg-white);
 }
 
 .fa-bars::before {
     content: "\f0c9";
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 32px;
+	width: 32px;
 }
 
 nav{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 7%;
+	height: auto;
 	background-color: red;
 	align-items: center;
+	z-index: 3;
+	justify-content: center;
 }
 
 ul{
@@ -113,7 +123,8 @@ ul{
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	background-color: black;
+	background-color: yellow;
+	z-index: 4;
   }
 
 /* Pagina 1 */ 
@@ -130,7 +141,7 @@ ul{
 	position: relative;
 	z-index: 1;
 	display: flex;
-	margin: 7% 0 0 0;
+	margin: 32px 0 0 0;
 	width: 100%;
 	height: 40%;
 	background-image: url("../img/oculus.png");
