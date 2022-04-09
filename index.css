@@ -200,7 +200,7 @@ h1{
 	margin: 30px 0 0 0;
 	align-items: center;
 	align-self: center;
-	background-color: white;
+	background-color: var(--bg-white);
 	width: 70%;
 	border-radius: 50px;
 	padding: 10px;
@@ -214,6 +214,11 @@ h1{
 	width: 100%;
 	font-size: 14pt;
 	font-weight: var(--f-medium);
+	color: black;
+}
+
+a{
+	text-decoration: none;
 }
 
 /* Pagina 2 y 3 */
